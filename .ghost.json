@@ -1,10 +1,10 @@
 {
   "development": {
-    "apiUrl": "https://gatsby.ghost.io",
-    "contentApiKey": "9cc5c67c358edfdd81455149d0"
+    "apiUrl": "https://chilbert.co",
+    "contentApiKey": "e6a145cc53d880410b625e68f1"
   },
   "production": {
-    "apiUrl": "https://gatsby.ghost.io",
-    "contentApiKey": "9cc5c67c358edfdd81455149d0"
+    "apiUrl": "https://chilbert.co",
+    "contentApiKey": "e6a145cc53d880410b625e68f1"
   }
 }
