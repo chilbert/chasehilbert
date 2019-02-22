@@ -113,9 +113,9 @@ module.exports = {
               options: {
                 trackingId: "UA-15312142-1",
                 // Puts tracking script in the head instead of the body
-                head: false,
+              //  head: false,
                 // Setting this parameter is optional
-                anonymize: true,
+                //anonymize: true,
                 // Setting this parameter is also optional
                 //respectDNT: true,
                 // Avoids sending pageview hits from custom paths
@@ -127,11 +127,11 @@ module.exports = {
                 // Set Variation ID. 0 for original 1,2,3....
                 //variationId: "YOUR_GOOGLE_OPTIMIZE_VARIATION_ID",
                 // Any additional create only fields (optional)
-                sampleRate: 5,
-                siteSpeedSampleRate: 10,
+                //sampleRate: 5,
+                //siteSpeedSampleRate: 10,
                 cookieDomain: "chasehilbert.com",
               },
-            }
+            },
         `gatsby-plugin-sitemap`,
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-force-trailing-slashes`,
