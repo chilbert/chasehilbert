@@ -1,4 +1,4 @@
-# Chase Hilbert Personal site
+# Chase Hilbert Personal Site and Blog
 
 This site leverages a GatsbyJS starter, [Gatsby Starter Ghost](https://github.com/TryGhost/gatsby-starter-ghost.git).  I am using Ghost CMS headless and I am hosting that at Digital Ocean on a standard Ubuntu box. Running my static site from Netlify and have a webhook connecting the two so a new build happens each time updates inside the Ghost CMS happen.
 
