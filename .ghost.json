@@ -1,10 +1,10 @@
 {
   "development": {
-    "apiUrl": "https://chilbert.co",
+    "apiUrl": "https://ghost.chilbert.co",
     "contentApiKey": "e6a145cc53d880410b625e68f1"
   },
   "production": {
-    "apiUrl": "https://chilbert.co",
+    "apiUrl": "https://ghost.chilbert.co",
     "contentApiKey": "e6a145cc53d880410b625e68f1"
   }
 }
