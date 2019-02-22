@@ -32,6 +32,7 @@ const WebsiteMeta = ({ data, settings, canonical, title, description, image, typ
                 <meta name="twitter:url" content={canonical} />
                 {settings.twitter && <meta name="twitter:site" content={`https://twitter.com/${settings.twitter.replace(/^@/, ``)}/`} />}
                 {settings.twitter && <meta name="twitter:creator" content={settings.twitter} />}
+                <meta name="google-site-verification" content="L0Dej0ik4RRijZ7FYND47RRjgXXg87NGJ10lRIdlC3c" />
                 <script type="application/ld+json">{`
                     {
                         "@context": "https://schema.org/",
@@ -60,6 +61,8 @@ const WebsiteMeta = ({ data, settings, canonical, title, description, image, typ
                         "description": "${description}"
                     }
                 `}</script>
+
+
             </Helmet>
             <ImageMeta image={shareImage} />
         </>
