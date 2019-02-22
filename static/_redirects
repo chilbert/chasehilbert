@@ -1,5 +1,8 @@
 # Netlify redirects file, edit with your domain
 # https://www.netlify.com/docs/redirects/
 
-https://gatsby-starter-ghost.netlify.com/*      https://gatsby.ghost.org/:splat    301!
-http://gatsby-starter-ghost.netlify.com/*       https://gatsby.ghost.org/:splat    301!
+# Redirect domain aliases to primary domain
+https://chilbert.co/* https://chasehilbert.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://gracious-kowalevski-b3bcc7.netlify.com/* https://chasehilbert.com/:splat 301!
