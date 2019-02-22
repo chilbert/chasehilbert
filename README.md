@@ -1,27 +1,19 @@
-# Gastby Starter Ghost
+# Chase Hilbert Personal site
 
-A starter template to build lightning fast websites with [Ghost](https://ghost.org) & [Gatsby](https://gatsbyjs.org)
-
-**Demo:** https://gatsby.ghost.org
-
-&nbsp;
-
-![gatsby-starter-ghost](https://user-images.githubusercontent.com/120485/50913567-8ab8e380-142c-11e9-9e78-de02ded12fc6.jpg)
-
-&nbsp;
+This site leverages a GatsbyJS starter, [Gatsby Starter Ghost](https://github.com/TryGhost/gatsby-starter-ghost.git).  I am using Ghost CMS headless and I am hosting that at Digital Ocean on a standard Ubuntu box. Running my static site from Netlify and have a webhook connecting the two so a new build happens each time updates inside the Ghost CMS happen.
 
 
 # Installing
 
 ```bash
 # With Gatsby CLI
-gatsby new gatsby-starter-ghost https://github.com/TryGhost/gatsby-starter-ghost.git
+gatsby new gatsby-starter https://github.com/chilbert/chasehilbert
 ```
 
 ```bash
 # From Source
-git clone git@github.com:TryGhost/gatsby-starter-ghost.git
-cd gatsby-starter-ghost
+git clone git@github.com:chilbert/chasehilbert.git
+cd chasehilbert
 ```
 
 Then install dependencies
@@ -40,7 +32,7 @@ Start the development server. You now have a Gatsby site pulling content from he
 gatsby develop
 ```
 
-By default, the starter will populate content from a default Ghost install located at https://gatsby.ghost.io.
+By default, the starter will populate content from a default Ghost install located at https://chilbert.co.
 
 To use your own install, edit the `.ghost.json` config file with your credentials. You can find or your `contentApiKey` in the "Integrations" screen in Ghost Admin.
 
@@ -49,10 +41,6 @@ To use your own install, edit the `.ghost.json` config file with your credential
 # Deploying with Netlify
 
 The starter contains three config files specifically for deploying with Netlify. A `netlify.toml` file for build settings, a `/static/_headers` file with default security headers set for all routes, and `/static/_redirects` to set Netlify custom domain redirects.
-
-To deploy to your Netlify account, hit the button below.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/)
 
 Content API Keys are generally not considered to be sensitive information, they exist so that they can be changed in the event of abuse; so most people commit it directly to their `.ghost.json` config file. If you prefer to keep this information out of your repository you can remove this config and set [Netlify ENV variables](https://www.netlify.com/docs/continuous-deployment/#build-environment-variables) for production builds instead.
 
