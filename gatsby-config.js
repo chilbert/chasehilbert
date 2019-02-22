@@ -109,11 +109,12 @@ module.exports = {
             },
         },
         {
-            resolve: `gatsby-plugin-google-analytics`,
-            options: {
-              trackingId: "UA-15312142-1",
-            },
+          resolve: `gatsby-plugin-google-analytics`,
+          options: {
+          // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+            trackingId: "UA-15312142-1",
           },
+        },
         `gatsby-plugin-sitemap`,
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-force-trailing-slashes`,
